@@ -10,7 +10,7 @@ TableViewCellConfiguration is available through [CocoaPods](https://cocoapods.or
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'TableViewCellConfiguration', :git => https://github.com/tanderus/TableViewCellConfiguration
+pod 'TableViewCellConfiguration', :git => "https://github.com/tanderus/TableViewCellConfiguration"
 ```
 
 ## Author
