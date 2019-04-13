@@ -1,0 +1,23 @@
+{
+  "name": "TableViewCellConfiguration",
+  "version": "0.1.0",
+  "summary": "A no-time minimalistic one-section UITableView",
+  "homepage": "https://github.com/tanderus/TableViewCellConfiguration",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "tanderus": "6lackk@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/tanderus/TableViewCellConfiguration.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "swift_version": "4.2",
+  "source_files": "TableViewCellConfiguration/Classes/**/*",
+  "frameworks": "UIKit"
+}

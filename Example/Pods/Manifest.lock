@@ -1,0 +1,16 @@
+PODS:
+  - TableViewCellConfiguration (0.1.0)
+
+DEPENDENCIES:
+  - TableViewCellConfiguration (from `../`)
+
+EXTERNAL SOURCES:
+  TableViewCellConfiguration:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TableViewCellConfiguration: c89204e9fb905a5195c3045474068cc771561690
+
+PODFILE CHECKSUM: 60edaf10bdc3ff0ac880ad26c6413d2e0420b916
+
+COCOAPODS: 1.6.1

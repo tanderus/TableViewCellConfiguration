@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TableViewCellConfiguration_Example' do
+  pod 'TableViewCellConfiguration', :path => '../'
+
+  target 'TableViewCellConfiguration_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
