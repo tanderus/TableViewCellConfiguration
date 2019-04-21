@@ -124,7 +124,18 @@ A typical approach would be subclassing it.
 All you need to do is:
 
 1.  manage the contents of `var allObjects: [TableRowProtocol]`  variable;
-2. call the `startDisplayingOnTableView(_ tableView: UITableView)` at some point. It just assigns datasource and delegate tableView properties on itself;
+2.  call the `startDisplayingOnTableView(_ tableView: UITableView)` at some point. It just assigns datasource and delegate tableView properties on itself;
+
+
+
+#### Expand/Collapse is done via
+
+`func addExpandCollapseRoute(_ indexToTap: UInt, indicesToCollapse: Set<UInt>)` method.
+
+Notes:
+
+- all indices start from zero;
+- `indexToTap` can't be within `indicesToCollapse` set;
 
 ## Author
 
