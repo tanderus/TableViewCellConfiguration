@@ -11,5 +11,17 @@ import TableViewCellConfiguration
 
 final class TappableCell: UITableViewCell, ConfigurableCell {
     
-    func configureWithRow(_ row: TableRowProtocol) {}
+    @IBOutlet private weak var label: UILabel!
+    
+    func configureWithRow(_ row: TableRowProtocol) {
+        guard let row = row as? TableRow else {
+            return
+        }
+        
+        guard case let .TappableRow(text, _) = row else {
+            return
+        }
+        
+        self.label.text = text
+    }
 }

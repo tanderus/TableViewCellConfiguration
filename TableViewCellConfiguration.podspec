@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TableViewCellConfiguration'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'A no-time minimalistic one-section UITableView'
 
   s.homepage         = 'https://github.com/tanderus/TableViewCellConfiguration'

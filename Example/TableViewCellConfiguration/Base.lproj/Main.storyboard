@@ -82,18 +82,23 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hey there! You can tap me" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nji-jT-szv">
-                                                    <rect key="frame" x="86.5" y="11.5" width="202" height="21"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hey there! You can tap me" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nji-jT-szv">
+                                                    <rect key="frame" x="8" y="11.5" width="359" height="20.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                             <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="nji-jT-szv" secondAttribute="trailing" constant="8" id="8W4-Cm-rPj"/>
+                                                <constraint firstItem="nji-jT-szv" firstAttribute="leading" secondItem="Kud-3r-uOd" secondAttribute="leading" constant="8" id="EJi-GQ-ABf"/>
                                                 <constraint firstItem="nji-jT-szv" firstAttribute="centerX" secondItem="Kud-3r-uOd" secondAttribute="centerX" id="Rzx-a1-VBy"/>
                                                 <constraint firstItem="nji-jT-szv" firstAttribute="centerY" secondItem="Kud-3r-uOd" secondAttribute="centerY" id="z8I-ZH-CWA"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="label" destination="nji-jT-szv" id="i51-79-g7V"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>

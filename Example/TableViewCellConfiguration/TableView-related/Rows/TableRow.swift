@@ -12,7 +12,7 @@ enum TableRow: TableRowProtocol {
     
     case LabelRow(text: String)
     case TextfieldRow(initialText: String)
-    case TappableRow(tapHandler: TapHandler)
+    case TappableRow(text: String, tapHandler: TapHandler)
     
     var cellReuseIdentifier: String {
         switch self {
@@ -45,7 +45,7 @@ enum TableRow: TableRowProtocol {
     }
     
     var cellTapHandler: TapHandler? {
-        guard case let TableRow.TappableRow(tapHandler) = self else {
+        guard case let TableRow.TappableRow(_, tapHandler) = self else {
             return nil
         }
         
