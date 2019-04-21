@@ -1,4 +1,6 @@
 *.DS_Store
+*Pods
+*xcworkspace
 
 # Xcode
 #
